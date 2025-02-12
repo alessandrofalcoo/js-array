@@ -6,11 +6,13 @@ const teachers = [
   'Carlo',
   'Lewis',
   'Luca'
-]; // NON MODIFICARE QUESTA VARIABILE
+ ]; // NON MODIFICARE QUESTA VARIABILE
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = console.log(teachers[3]);
+const fourthTeacher = teachers[3];
+console.log(fourthTeacher);
+
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
@@ -38,12 +40,14 @@ const lewisIndex = teachers.indexOf("Lewis");
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
+let isTeachersEmpty = false;
+console.log(teachers.length);
 
-if (teachers.length = []) {
-  const isTeachersEmpty = null;
-  console.log(isTeachersEmpty);
-  
+if (teachers.length == 0) {
+  isTeachersEmpty = true
+
+
 }
-
+console.log(isTeachersEmpty);
 
 
